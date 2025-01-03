@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Netflix</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    ul{      
+      z-index: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Header-->
+
+  <ul>
+    <li>
+      <a href="index.html"><img src="img/logo.png" class="img-header"></a>
+    </li>
+    <li>
+      <a href="./netflix-tbo.html"><img src="./avatar/tbo.jpeg" title="The Black One" class="img-header"></a>
+    </li>
+  </ul>
+  <!-- End of Header  -->
+
+  <br>
+  <!--Main Video-->
+  <div>
+    <audio src="./audio/audio_tudum-netflix-sound.mp3" autoplay></audio>
+    <video src="video/round6.mp4" width="100%" autoplay loop muted class="video">
+    </video>
+
+    <button class="btn-sound">🔊 </button> <!--Play Button-->
+
+
+  </div>
+
+
+  <!--Video cover-->
+  <div class="cover">
+    <h1 class="cover-title">Squid Game</h1>
+    <p class="cover-intro">
+      Squid Game is a story about people who fail at life for various reasons,
+      but suddenly receive a mysterious invitation to participate in a survival game to win $10 million.
+      The game takes place at an unknown location, and the participants are locked up until there is a final winner.</p>
+
+    <!-- Play and Info Buttons -->
+    <a href="tbo-squidgame.html"><button class="btn-play">▶ Play</button></a>    
+    <button class="btn-info">❕More Info</button>
+  </div>
+
+  <!-- Info Button  -->
+  <section>
+    <div class="modal">
+      <div class="modal-content">
+        <form style="padding:10px; margin:0;">
+          <fieldset>
+            <p>Squid Game, also known as Round Six is a story about people who fail at life for various reasons,
+              but suddenly receive a mysterious invitation to participate in a survival game to win $10 million.
+              The game takes place at an unknown location, and the participants are locked up until there is a final
+              winner.
+            </p>
+
+            <legend>
+              <h3>Squid Game</h3>
+            </legend>
+            <hr style="background-color:white;">
+            <p class="info-para">Seasons: <strong> 2 </strong> </p>
+            <p class="info-para">Creator and Director: <strong>Hwang Dong-hynk</strong></p>
+            <p class="info-para">Main Cast: <strong>Lee Jung-Jae as Seong Gi-hun</strong></p>
+            <p class="info-para">Genres: <strong>Dystopian, Survival, Thriller, Horror</strong></p>
+            <p class="info-para">Maturity rating: <strong>18+</strong></p>
+
+            <!-- Rate Section  -->
+            <div rate-section>
+              <div class="text-btn">
+                <h6>Rate this Series</h6>
+                <textarea required></textarea><br>
+                <!-- Send Button  -->
+                <button class="btn-send">Send</button>
+
+              </div>
+            </div>
+            <!-- End of Rate Section  -->
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+  </section>
+  <!--Carousel-->
+  <section>
+
+    <div id="img-carousel" class="carousel slide" data-ride="carousel">
+      <div>
+        <h2 id="carousel-title">We Think You'll Love These</h2>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- Images -->
+            <img src="img/abyss.jpg" class="images">
+            <img src="img/chokehold.jpg" class="images">
+            <img src="img/f1.jpg" class="images">
+            <img src="img/hunter.jpg" class="images">
+            <img src="img/shazam.png" class="images">
+          </div>
+          <div class="carousel-item">
+            <!-- Images -->
+            <img src="img/stranger-things.jpg" class="images">
+            <img src="img/jaula.jpg" class="images">
+            <img src="img/extraction.png" class="images">
+            <img src="img/lift.jpg" class="images">
+            <img src="img/moonfall.jpg" class="images">
+          </div>
+          <div class="carousel-item">
+            <!-- Images -->
+            <img src="img/delhicrime.png" class="images">
+            <img src="img/undergroung6.png" class="images">
+            <img src="img/extraction.png" class="images">
+            <img src="img/Lupin.png" class="images">
+            <img src="img/chokehold.jpg" class="images">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#img-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#img-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    
+
+          <p style="text-align:center; margin-top:15px">&copy; All Rights Reserved</p>
+        </div>
+  </section>
+
+  <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="./script.js">
+
+  </script>
+</body>
+
+</html>

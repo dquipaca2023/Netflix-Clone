@@ -1,0 +1,188 @@
+/* INDEX FILE  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color:#000000;
+    margin:0;
+    font-family: "Montserrat", sans-serif;   
+    position: relative;
+}
+
+ul {
+    height:20px;
+    width:95%;
+    display:flex;
+    list-style:none;
+    justify-content:space-between;
+    position: fixed;   
+    padding-top:10px;    
+    margin-bottom:0px;
+}
+
+.img-header{
+        height:25px;  
+        width:auto;      
+}      
+        
+.cover{        
+        width:50%;
+        position:absolute;
+        bottom:200px;
+        margin-left: 4%;
+}
+
+.cover-title{
+            color:white;
+            font-size:60px;
+            margin-bottom:-4px;
+            font-weight:bold;            
+}            
+
+
+.cover-intro{
+        color:rgb(216, 216, 216);
+        font-size:16px;   
+    
+}
+/* Buttons  */
+.btn-play{
+        background-color:white;
+        border:none;                        
+        cursor:pointer;
+        font-weight:bold;  
+        text-align:center;         
+        border-radius:6px;
+        padding: 5px 10px; 
+        height:auto; 
+        width: 85px;              
+}
+
+.btn-info{
+        background-color:rgb(205, 205, 205, 0.34);     
+        font-size:medium;        
+        border:none;                           
+        cursor:pointer;
+        font-weight:bold;         
+        text-align:center;      
+        border-radius: 6px;
+        padding: 5px 10px;
+        height:auto;         
+}
+
+/* Button Sound */
+.btn-sound{        
+        border:solid;
+        border-inline: 1px;
+        border-radius:8px;
+        cursor:pointer;        
+        position: absolute;
+        top:400px;
+        right:20px;
+        background: transparent;        
+}
+
+/* Button Send  */
+.btn-send{
+        font-size:12;
+        height:25px;
+        width:auto;
+        padding-bottom:20px;
+        padding-top:0px;        
+        background-color:#181818;
+        border-color:aliceblue;
+        color:rgb(175, 175, 175);
+        border-style:solid;                        
+        border-inline:1px;        
+        cursor:pointer;
+        font-weight:bold;  
+        text-align:center; 
+        border-radius:4px;
+}
+
+/* Rate Section  */
+textarea{
+        background-color:#181818;
+        color:white;
+        border-radius: 4px;
+        border-inline:10px;
+}
+
+
+/* General div for Rate Section in the form - div1  */
+.rate-section{
+        position:relative;        
+}
+
+/* Textarea and button in the form - div 2  */
+.text-btn{
+        padding-top:7px;
+        position:absolute;
+        right:100px;
+        top:200px;
+}
+
+/* Legend in the Button Info  */
+.info-para{
+        font-size: 13px;
+}
+h4{
+        position:absolute;
+        left:20px;
+        font-size:50px;
+}
+
+/* Carousel*/
+#carousel-title{
+        color:rgb(211, 211, 211);
+        font-size:20px;
+        margin-bottom:3px;            
+}
+
+#img-carousel{
+        background-color: transparent;
+        position: absolute;
+        bottom: -40px;        
+        left:40px;
+        display: flex;        
+        justify-content: center;
+}
+
+.images{
+        width:200;
+        height:125px;
+        border-radius:3px; 
+} 
+
+/* Info Button Description */
+.modal{
+        display:none;
+        position:fixed;        
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        background-color: rbga(0,0,0,0.8);
+        border-radius:5px;
+}
+
+.modal-content{
+        background-color: #181818;
+        margin:30px auto;
+        padding:20px;
+        width:60%;
+        color:white;
+
+}
+
+/* END OF INDEX FILE  */
+
+/* PROFILE FILE  */
+
+button:hover{
+        background-color: #2c2c2c;    
+        color: rgb(153, 153, 153);
+    }
+
+
+        
